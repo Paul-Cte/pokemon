@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pokemon</title>
+    <link rel="stylesheet" href="../public/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+    <link rel="icon" type="image/png" href="../image/pokeball.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- <div class="rectangle">
+      <img src="../image/line-large-sans-blanc.png" alt="" />
+    </div> -->
+
+    <section class="head-section">
+      <div>
+        <img
+          class="titre-head"
+          src="../image/titre.png"
+          alt="pokemon-rivalité-destiné"
+        />
+        <div>
+          <h1>DÉCOUVRIR DÈS MAINTENANT</h1>
+          <a href="#menu">
+            <i class="fi fi-sr-angle-circle-down"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="presentation-collection">
+      <div class="section-red-grey-2">
+        <img class="fa" src="../image/corner-large.png" alt="" />
+        <img class="fb" src="../image/line-large.png" alt="" />
+        <img class="fc" src="../image/corner-large.png" alt="" />
+      </div>
+
+      <div class="section-red-grey-3">
+        <img class="fz" src="../image/corner-large.png" alt="" />
+        <img class="fe" src="../image/line-large.png" alt="" />
+        <img class="fr" src="../image/corner-large.png" alt="" />
+      </div>
+    </div>
+
+    <section class="choice-part-section">
+      <div class="menu" id="menu">
+        <li><a id="btn-booster">Boosters</a></li>
+        <li><a id="btn-cartes">Cartes</a></li>
+      </div>
+
+      <div id="section-booster" class="boosters active">
+        <img class="card" src="../image/booster1.png" alt="booster" />
+        <img class="card" src="../image/booster2.png" alt="booster" />
+        <img class="card" src="../image/booster3.png" alt="booster" />
+        <img class="card" src="../image/booster4.png" alt="booster" />
+      </div>
+
+      <div id="section-carte" class="boosters">
+        <img
+          class="card"
+          id="carte-mewtwo"
+          src="../image/card-mewtwo.png"
+          alt="carte"
+        />
+        <img class="card" src="../image/carchakrok.png" alt="carte" />
+        <img class="card" src="../image/nostenfer.png" alt="carte" />
+        <img class="card" src="../image/ho-oh.png" alt="carte" />
+      </div>
+    </section>
+
+    <section class="a-gagner">
+      <img id="confettis" src="../image/confettis.png" alt="confettis" />
+      <div class="demi-cercle"></div>
+      <h1>Concours exceptionnel !</h1>
+      <!-- <h2>À gagner :</h2> -->
+
+      <div class="lot">
+        <div>
+          <p><strong>3 Packs Pokémon Édition Collector</strong></p>
+          <ul>
+            <li>Cartes rares et exclusives</li>
+            <li>1 booster surprise dans chaque pack</li>
+            <li>Livraison gratuite pour les gagnants</li>
+          </ul>
+        </div>
+        <img class="card" src="../image/pack.png" alt="Pack Pokémon" />
+      </div>
+    </section>
+
+    <!-- <div class="section-red-grey"></div> -->
+
+    <form class="formulaire" action="">
+      <img class="img-pikachu" src="../image/evoli.png" alt="pikachu" />
+
+      <h2>Participer au concours</h2>
+
+      <div>
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom" />
+      </div>
+
+      <div>
+        <label for="prenom">Prénom :</label>
+        <input type="text" name="prenom" id="prenom" />
+      </div>
+
+      <div>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <input type="submit" value="Participer !" />
+    </form>
+
+    <div class="section-red-grey">
+      <img class="f1" src="../image/corner-large.png" alt="" />
+      <img class="f2" src="../image/line-large.png" alt="" />
+      <img class="f3" src="../image/corner-large.png" alt="" />
+    </div>
+
+    <div class="zoom" id="overlay">
+      <div class="overlay"></div>
+      <img
+        class="card-zoomed"
+        id="card-zoomed"
+        src=""
+        alt="carte-mewtwo-zoom"
+      />
+      <img
+        class="img-fermer"
+        id="btn-fermer-zoom"
+        src="../image/fermer.png"
+        alt="btn-fermer"
+      />
+    </div>
+
+    <footer>
+      <img
+        class="footer-bottom-right"
+        src="../image/frame-bottom-right-large-up-2x.png"
+        alt="deco"
+      />
+      <img
+        class="footer-top-left"
+        src="../image/frame-bottom-right-large-up-2x.png"
+        alt="deco"
+      />
+
+      <div class="div-reseaux">
+        <h2>Rejoignez-nous !</h2>
+        <div>
+          <li>
+            <a href="#"><img src="../image/instagram.png" alt="insta" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="../image/twitter.png" alt="x" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="../image/youtube.png" alt="yt" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="../image/facebook.png" alt="fb" /></a>
+          </li>
+        </div>
+      </div>
+
+      <div class="lien-footer">
+        <img class="texte-pokemon" src="../image/pokemon-txt.png" alt="" />
+        <li><a href="#">Avis de confidentialité</a></li>
+        <li><a href="#">Condition d'utilisation</a></li>
+        <li><a href="#">Condition du concours</a></li>
+        <li><a href="#">Service client</a></li>
+        <li><a href="#">Forum</a></li>
+      </div>
+
+      <img
+        class="teamrocket"
+        src="../image/rocket-group-medium-up.png"
+        alt=""
+      />
+    </footer>
+
+    <script src="../public/javascript.js"></script>
+  </body>
+</html>
